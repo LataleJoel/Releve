@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+        <head>
+                <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+                
+                <title>Gestion des relevés de note</title>
+
+
+
+               
+        </head>
+        <body>
+		
+		<div class="conteneur">	
+			<div class="row" id="header">
+			
+				<div class="col-md-2" >
+					<img src="application/images/logo3il.jpg" alt="logo 3IL" id="logo3il" />
+				</div>
+				
+				<h1 class="col-md-8" id="titre_header">
+					Gestion des relevés de notes
+				</h1>
+				
+				<div id="login">
+					<a href=""><span class="glyphicon glyphicon-user"></span> TEWOUDA Kevin <span class="glyphicon glyphicon-off"></span></a>
+				</div>	
+				
+			</div>
+			<div class="row">
+				
+				<ol class="breadcrumb center" id="fil_ariane">
+					<span class="glyphicon glyphicon-home"></span>
+					<li><a href="#"> Index</a></li>
+					<li class="active">Ecran SGP</li>
+					
+				</ol>
+					
+			</div>
+			<div class="row">		
+				<div class="col-md-1">
+				</div>
+			
+				<div class="col-md-1"  id="menu_principal">
+					<ul class="nav nav-list">
+						<li><a href="#">Nouveaux(12)</a></li>
+						<li> <a href="#">Brouillons(0)</a></li>
+						<li><a href="#">En attente(0)</a></li>
+						<li><a href="#">Traité(6)</a></li>
+						<li> <a data-toggle="collapse" data-parent="#accordion" href="#all_promotions">
+						  Promotions
+						</a>
+						<ul id="all_promotions" class="nav nav-list collapse">
+								<li><a href="#"><span class="glyphicon glyphicon-folder-close"></span> I1</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-folder-close"></span> I2</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-folder-close"></span> I3</a></li>
+								
+								
+						</ul>
+						</li>			
+					</ul>
+				</div>
+				
+					<div class="col-md-9">
+							
+				<table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="example">
+						<thead>
+									<tr>
+										<th>Année</th>
+										<th>Promotion</th>
+										<th>Enseignant</th>
+										<th>Matière</th>
+										<th>Date</th>
+										<th>Type d'epreuve</th>
+										<th>Statut</th>
+										
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>I1</td>
+										<td>Ruchaud</td>
+										<td>POO</td>
+										<td>01/11/14</td>
+										<td>DI</td>
+										<td>Traité</td>		
+									</tr>
+									
+									<tr>
+									
+										<td>1</td>
+										<td>I1</td>
+										<td>Ruchaud</td>
+										<td>POO</td>
+										<td>01/11/14</td>
+										<td>DI</td>
+										<td>Traité</td>		
+									</tr>
+									
+									<tr>
+										
+										<td>1</td>
+										<td>I1</td>
+										<td>Ruchaud</td>
+										<td>POO</td>
+										<td>01/11/14</td>
+										<td>DI</td>
+										<td>Traité</td>		
+									</tr>
+									
+									<tr>
+										
+										<td>1</td>
+										<td>I1</td>
+										<td>Ruchaud</td>
+										<td>POO</td>
+										<td>01/11/14</td>
+										<td>DI</td>
+										<td>Traité</td>		
+									</tr>
+									
+									<tr>
+										
+										<td>1</td>
+										<td>I1</td>
+										<td>Ruchaud</td>
+										<td>POO</td>
+										<td>01/11/14</td>
+										<td>DI</td>
+										<td>Traité</td>		
+									</tr>
+									
+									<tr>
+										
+										<td>1</td>
+										<td>I1</td>
+										<td>Ruchaud</td>
+										<td>POO</td>
+										<td>01/11/14</td>
+										<td>DI</td>
+										<td>Traité</td>		
+									</tr>
+										
+								
+								</tbody>
+								<tfoot>
+									<tr>
+									<th>Année</th>
+										<th>Promotion</th>
+										<th>Enseignant</th>
+										<th>Matière</th>
+										<th>Date</th>
+										<th>Type de devoir</th>
+										<th>Statut</th>
+										
+									</tr>
+								</tfoot>
+						</table>
+										
+					</div>
+				</div>
+		</div>	
+			<script type="text/javascript" language="javascript" src="application/javascript/jquery-1.10.2.min.js"></script>
+			<script type="text/javascript" language="javascript" src="application/javascript/jquery.dataTables.min.js"></script>
+			<script type="text/javascript" language="javascript" src="application/javascript/dataTables.bootstrap.js"></script>
+			<script type="text/javascript" charset="utf-8">
+					$(document).ready(function() {
+							$('#example').dataTable();
+							$( "#accordion" ).accordion({
+								collapsible: true
+							});
+					});
+			</script>
+        </body>
+</html>

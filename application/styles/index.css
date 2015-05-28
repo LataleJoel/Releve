@@ -1,0 +1,108 @@
+
+#form-login {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 1px 1px 1px  1px black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    
+    background: -webkit-linear-gradient(
+		left bottom,
+		#aaeeff,
+		#3399cc
+	);
+	background: -moz-linear-gradient(
+		left bottom,
+		#aaeeff,
+		#3399cc
+	);
+	background: -o-linear-gradient(
+		left bottom,
+		#aaeeff,
+		#3399cc
+	);
+	background: linear-gradient(
+		left bottom,
+		#aaeeff,
+		#3399cc
+	);
+}
+
+.form-login-content {
+    padding: 0 15px 15px 15px;
+}
+.form-login-content p {
+    text-align: justify;
+}
+
+.tabs {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+.tabs li {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.tabs a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 22px 12px 22px;
+}
+
+body {
+    padding-top: 40px; 
+	clear:both;
+  background: url(../images/ciel.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#form-login   {
+    background-color: #fff;
+    width:400px;
+    padding: 20px;
+    margin: 0 -20px; 
+
+}
+
+#titre{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.image img{
+    height:50px;
+    width:50px;
+
+}
+#form-login{
+   
+    background-color: whitesmoke;
+}
+#form-login {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 1px 1px 1px  1px black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+

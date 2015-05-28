@@ -1,0 +1,120 @@
+#login{
+	float: right;
+	margin-top:10px;
+	margin-right:20px;
+}
+
+#login a{
+	color: black;
+}
+
+
+#logo3il{
+	width:100px;
+	height:100%;
+	margin-left:-20px;
+}
+
+#header {
+	background-color:#51729f;
+	margin:0;
+	/*border: 1px solid black;*/
+	
+}
+
+#menu_principal{
+	margin-left:20px;
+	/*background-color:#eaecef;
+	border-radius:10px;*/
+}
+
+#menu_principal > ul > li  > a:hover {
+	background-color:#80ade6;
+}
+
+#menu_principal > ul > li  > ul > li > a:hover {
+	background-color:#80ade6;
+}
+
+
+#fil_ariane{
+
+margin-top:5px;
+margin-left:10px;
+width:100%;
+	opacity:0.9;
+}
+
+
+
+#titre_header{
+	text-align:center;
+	font-size:30px;
+	margin-top:10px;
+}
+
+
+
+.conteneur{
+	margin: 0 auto;
+  width: 100%;
+
+	}
+	
+.row{
+	width:100%;
+}
+
+/*	CUSTOM CSS DATATABLES */
+
+
+/*  Couleur du thead et du tfoot du datatable */
+.datatable_custom > thead > tr ,
+.datatable_custom > tfoot > tr 
+{
+	background-color:#70a8d3;
+}
+
+/*  Couleur du body impair du datatable */
+.datatable_custom > tbody > tr.even
+{
+	background-color:#eaecef;
+}
+
+.datatable_custom > tbody > tr.even:hover
+{
+	background-color:#a5ede7;
+}
+
+
+.datatable_custom > tbody > tr.odd:hover > *
+{
+	background-color:#a5ede7;
+}
+
+
+.datatables_action{
+	margin-right:5px;
+}
+
+/* CUSTOM BOOTSTRAP */
+
+.btn-custom{
+
+	margin:5px;
+}
+
+/* EFFET ACCORDEON ICONE */
+.accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";   /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+	color:gray;
+}
+
+
+ .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
